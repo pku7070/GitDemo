@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Suite]" verbose="0">
+  <listeners>
+    <listener class-name="Academy.Listeners"/>
+  </listeners>
+  <test parallel="none" name="validating homepage(failed)">
+    <classes>
+      <class name="Academy.HomePage">
+        <methods>
+          <include name="basepageNavigation" invocation-numbers="0"/>
+          <include name="initialize"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- Academy.HomePage -->
+      <class name="Academy.ValidateNavigationBar">
+        <methods>
+          <include name="initialize"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- Academy.ValidateNavigationBar -->
+      <class name="Academy.ValidateCourses">
+        <methods>
+          <include name="initialize"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- Academy.ValidateCourses -->
+    </classes>
+  </test> <!-- validating homepage(failed) -->
+  <test parallel="none" name="validating courses(failed)">
+    <classes>
+      <class name="Academy.ValidateNavigationBar">
+        <methods>
+          <include name="initialize"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- Academy.ValidateNavigationBar -->
+      <class name="Academy.HomePage">
+        <methods>
+          <include name="initialize"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- Academy.HomePage -->
+      <class name="Academy.ValidateCourses">
+        <methods>
+          <include name="initialize"/>
+          <include name="teardown"/>
+          <include name="basepageNavigation"/>
+        </methods>
+      </class> <!-- Academy.ValidateCourses -->
+    </classes>
+  </test> <!-- validating courses(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,19 @@
+2022-07-11 21:51:01.025 INFO [TestNG-tests-2] [Academy.E2EProject.ValidateCourses.initialize(ValidateCourses.java:21)] - Driver has initialized 
+2022-07-11 21:51:01.025 INFO [TestNG-tests-4] [Academy.E2EProject.ValidateNavigationBar.initialize(ValidateNavigationBar.java:21)] - Driver has initialized 
+2022-07-11 21:51:01.025 INFO [TestNG-tests-1] [Academy.E2EProject.HomePage.initialize(HomePage.java:24)] - Driver is initialized
+2022-07-11 21:51:20.871 INFO [TestNG-tests-2] [Academy.E2EProject.ValidateCourses.initialize(ValidateCourses.java:23)] - navigated to HomePage
+2022-07-11 21:51:20.962 INFO [TestNG-tests-2] [Academy.E2EProject.ValidateCourses.basepageNavigation(ValidateCourses.java:32)] - Successfully validate text message
+2022-07-11 21:51:21.612 INFO [TestNG-tests-1] [Academy.E2EProject.HomePage.basepageNavigation(HomePage.java:31)] - Navigated to HomePage
+2022-07-11 21:51:22.281 INFO [TestNG-tests-1] [Academy.E2EProject.HomePage.basepageNavigation(HomePage.java:34)] - clicked on login
+2022-07-11 21:51:22.429 INFO [TestNG-tests-1] [Academy.E2EProject.HomePage.basepageNavigation(HomePage.java:37)] - username provided
+2022-07-11 21:51:22.523 INFO [TestNG-tests-1] [Academy.E2EProject.HomePage.basepageNavigation(HomePage.java:39)] - password provided
+2022-07-11 21:51:22.523 INFO [TestNG-tests-1] [Academy.E2EProject.HomePage.basepageNavigation(HomePage.java:40)] - unrestricted user
+2022-07-11 21:51:22.757 INFO [TestNG-tests-1] [Academy.E2EProject.HomePage.basepageNavigation(HomePage.java:42)] - clicked on login
+2022-07-11 21:51:37.150 INFO [TestNG-tests-1] [Academy.E2EProject.HomePage.basepageNavigation(HomePage.java:31)] - Navigated to HomePage
+2022-07-11 21:51:37.591 INFO [TestNG-tests-1] [Academy.E2EProject.HomePage.basepageNavigation(HomePage.java:34)] - clicked on login
+2022-07-11 21:51:37.726 INFO [TestNG-tests-1] [Academy.E2EProject.HomePage.basepageNavigation(HomePage.java:37)] - username provided
+2022-07-11 21:51:37.823 INFO [TestNG-tests-1] [Academy.E2EProject.HomePage.basepageNavigation(HomePage.java:39)] - password provided
+2022-07-11 21:51:37.824 INFO [TestNG-tests-1] [Academy.E2EProject.HomePage.basepageNavigation(HomePage.java:40)] - restricted user
+2022-07-11 21:51:38.098 INFO [TestNG-tests-1] [Academy.E2EProject.HomePage.basepageNavigation(HomePage.java:42)] - clicked on login
+2022-07-11 21:51:52.010 INFO [TestNG-tests-4] [Academy.E2EProject.ValidateNavigationBar.initialize(ValidateNavigationBar.java:23)] - Navigated to HomePage
+2022-07-11 21:51:52.139 INFO [TestNG-tests-4] [Academy.E2EProject.ValidateNavigationBar.basepageNavigation(ValidateNavigationBar.java:32)] - Successfully validate the requirements
